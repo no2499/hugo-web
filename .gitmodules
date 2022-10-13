@@ -1,0 +1,12 @@
+[submodule "hugo-clarity"]
+	path = hugo-clarity
+	url = https://github.com/chipzoller/hugo-clarity.git
+[submodule "themes/hugo-clarity"]
+	path = themes/hugo-clarity
+	url = https://github.com/chipzoller/hugo-clarity.git
+[submodule "themes/hugo-simplecss"]
+	path = themes/hugo-simplecss
+	url = https://github.com/splch/hugo-simplecss.git
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
