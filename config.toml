@@ -1,13 +1,55 @@
 baseURL = 'https://go.simty.work'
 languageCode = 'en-us'
-title = '你好啊'
+title = '聯絡資訊'
+author = "no2499"
+copyright = "&copy; 2022"
+canonifyurls = true
+paginate = 10
 
 theme = "blackburn"
 
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A Hugo Theme"
+  brand = "聯絡資訊"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  highlightjs_extra_languages = ["yaml"]
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = ["css/my.css"]
+  custom_js = ["js/my.js"]
+  
 [menu]
   [[menu.main]]
+    name = "首頁"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "文章"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
     identifier = "post"
     url = "/post/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
+    
+  [[menu.main]]
+    name = "關於"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/post/about/"
+    
+  [[menu.main]]
+    name = "聯絡我們"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/post/contact/"

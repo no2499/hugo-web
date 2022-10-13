@@ -10,3 +10,9 @@
 [submodule "themes/blackburn"]
 	path = themes/blackburn
 	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "themes/stack"]
+	path = themes/stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack.git
+[submodule "themes/book"]
+	path = themes/book
+	url = https://github.com/alex-shpak/hugo-book.git
