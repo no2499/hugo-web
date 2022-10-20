@@ -6,7 +6,7 @@ copyright = "&copy; 2022"
 canonifyurls = true
 paginate = 10
 
-theme = "blackburn"
+theme = "ezhil"
 
 [indexes]
   tag = "tags"
